@@ -1,0 +1,49 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gtm-engine",
+  "version": "1.0.0",
+  "description": "Guide a customer-development experiment from product context through a reachable audience, a credible offer, two channels, a 14-day plan, daily tracking, and an evidence-based review. Reuses known answers and provides a continuation record for a new chat. Research is optional and unverified facts remain visible. Outreach stays draft-only and results are not guaranteed. No publisher account or backend is required.",
+  "author": {
+    "name": "Kerry Morrison",
+    "email": "kmo@betterstory.co"
+  },
+  "homepage": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/gtm-engine.md",
+  "repository": "https://github.com/kmorebetter/chatgpt-plugins",
+  "license": "LicenseRef-Personal-Use",
+  "keywords": [
+    "customers",
+    "go-to-market",
+    "experiments"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GTM Engine",
+        "shortDescription": "Find your first customers",
+        "longDescription": "Guide a customer-development experiment from product context through a reachable audience, a credible offer, two channels, a 14-day plan, daily tracking, and an evidence-based review. Reuses known answers and provides a continuation record for a new chat. Research is optional and unverified facts remain visible. Outreach stays draft-only and results are not guaranteed. No publisher account or backend is required.",
+        "developerName": "Kerry Morrison",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/gtm-engine.md",
+        "supportURL": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/support.md",
+        "privacyPolicyURL": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/privacy.md",
+        "termsOfServiceURL": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/terms.md",
+        "defaultPrompt": [
+          "Help me choose the first customer group for the product I built.",
+          "Turn my accepted offer into a realistic 14-day customer experiment.",
+          "Review my reported activity and recommend one change for next week."
+        ],
+        "brandColor": "#166534",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "onboardingSkill": "./skills/gtm-start/SKILL.md",
+      "publication": {
+        "release_notes": "Initial portable skills-only release with onboarding, bounded workflows, explicit evidence limits, and supplied-material fallbacks."
+      }
+    }
+  }
+}

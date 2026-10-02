@@ -1,0 +1,49 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "the-compiler",
+  "version": "1.0.0",
+  "description": "Preserve the meaning of a request, turn it into concise instructions for the chosen AI or tool, and check the resulting work against the original goal. Includes clarification, compilation, evidence-based validation, and proposed reusable learning. Works with supplied context and available authorized tools. It does not run another model, guarantee outcomes, or automatically change files or external systems.",
+  "author": {
+    "name": "Kerry Morrison",
+    "email": "kmo@betterstory.co"
+  },
+  "homepage": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/the-compiler.md",
+  "repository": "https://github.com/kmorebetter/chatgpt-plugins",
+  "license": "MIT",
+  "keywords": [
+    "intent",
+    "prompting",
+    "validation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "The Compiler",
+        "shortDescription": "Clarify, prompt, verify",
+        "longDescription": "Preserve the meaning of a request, turn it into concise instructions for the chosen AI or tool, and check the resulting work against the original goal. Includes clarification, compilation, evidence-based validation, and proposed reusable learning. Works with supplied context and available authorized tools. It does not run another model, guarantee outcomes, or automatically change files or external systems.",
+        "developerName": "Kerry Morrison",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/the-compiler.md",
+        "supportURL": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/support.md",
+        "privacyPolicyURL": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/privacy.md",
+        "termsOfServiceURL": "https://github.com/kmorebetter/chatgpt-plugins/blob/main/docs/terms.md",
+        "defaultPrompt": [
+          "Help me turn this rough request into clear instructions for another AI.",
+          "Check this result against my original request and identify what is still unverified.",
+          "Explain what this completed run teaches us and whether any instruction should change."
+        ],
+        "brandColor": "#334155",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "onboardingSkill": "./skills/compiler-start/SKILL.md",
+      "publication": {
+        "release_notes": "Initial portable skills-only release with onboarding, bounded workflows, explicit evidence limits, and supplied-material fallbacks."
+      }
+    }
+  }
+}
