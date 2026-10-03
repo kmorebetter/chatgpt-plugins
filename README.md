@@ -11,3 +11,5 @@ These packages do not run a hosted backend, collect analytics, send outreach, bo
 See [Privacy](docs/privacy.md), [Terms](docs/terms.md), and [Support](docs/support.md).
 
 Source packages are under `plugins/`. Fictional acceptance cases and actual local walkthroughs are under `review/`. Run `python3 scripts/package.py` to validate and build separate upload ZIPs. ZIPs contain only plugin files, not this entire repository.
+
+Ready-to-upload ZIPs and their checksums are versioned in `dist/`. The current account-verification blocker and remaining submission steps are in [Submission status](SUBMISSION-STATUS.md).

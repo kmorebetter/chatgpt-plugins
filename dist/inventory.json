@@ -1,0 +1,26 @@
+[
+  {
+    "name": "buyer-target-book",
+    "version": "1.0.0",
+    "skills": 3,
+    "files": 11,
+    "bytes": 10077,
+    "sha256": "c01e5b93f950b4d605cdb1829d45a281d661c4aca2eaea0bcbe7fdf8f8f62389"
+  },
+  {
+    "name": "gtm-engine",
+    "version": "1.0.0",
+    "skills": 6,
+    "files": 16,
+    "bytes": 18272,
+    "sha256": "774840dee75fad4db7fafc1334e113d5e7fc2b889dd72e554ee1f4b21ffe4fa2"
+  },
+  {
+    "name": "the-compiler",
+    "version": "1.0.0",
+    "skills": 4,
+    "files": 8,
+    "bytes": 8110,
+    "sha256": "ae7dcc937dc6ca8020472723d9339b461d48dda64992a55f5d5de7703377616c"
+  }
+]

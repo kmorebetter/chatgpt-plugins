@@ -30,3 +30,7 @@ Publisher name is provisionally Kerry Morrison. Reconcile it with the verified d
 5. Record scan findings, submission identifiers, and actual status here. Approval and publication are separate steps.
 
 The local checks do not establish directory eligibility, automated scan results, review approval, or publication. No release has been published.
+
+## Project location and GitHub
+
+The complete public project lives in `PersonalProjects/chatgpt-plugins` and is published at https://github.com/kmorebetter/chatgpt-plugins. Source packages, public documentation, fictional review materials, packaging script, upload ZIPs, and checksums are kept together. Private account-verification documents and credentials are excluded.
