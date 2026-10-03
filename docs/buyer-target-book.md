@@ -1,4 +1,4 @@
-# Buyer / Target Book
+# Better Story Target Book
 
 Prepare a company brief before a sales conversation or a bounded shortlist of organizations for a defined offer. Checks identity, cites deciding evidence, explains possible fit, and separates facts, inferences, hypotheses, and unknowns. Public signals do not establish purchase intent. Works with available authorized research tools or supplied documents. Does not collect private contact data, send outreach, or update a CRM.
 

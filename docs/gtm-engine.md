@@ -1,4 +1,4 @@
-# GTM Engine
+# Better Story GTM
 
 Guide a customer-development experiment from product context through a reachable audience, a credible offer, two channels, a 14-day plan, daily tracking, and an evidence-based review. Reuses known answers and provides a continuation record for a new chat. Research is optional and unverified facts remain visible. Outreach stays draft-only and results are not guaranteed. No publisher account or backend is required.
 

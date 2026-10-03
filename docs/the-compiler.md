@@ -1,4 +1,4 @@
-# The Compiler
+# Better Story Compiler
 
 Preserve the meaning of a request, turn it into concise instructions for the chosen AI or tool, and check the resulting work against the original goal. Includes clarification, compilation, evidence-based validation, and proposed reusable learning. Works with supplied context and available authorized tools. It does not run another model, guarantee outcomes, or automatically change files or external systems.
 
