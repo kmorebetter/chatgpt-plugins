@@ -1,16 +1,26 @@
 # Submission status
 
-Verified October 2, 2026.
+Verified October 3, 2026.
 
 | Package | Local structure | Marketplace scan | Submitted |
 | --- | --- | --- | --- |
-| The Compiler 1.0.0 | Passed | Not run | No |
-| GTM Engine 1.0.0 | Passed | Not run | No |
-| Buyer / Target Book 1.0.0 | Passed | Not run | No |
+| Better Story Compiler 1.0.0 | Passed | 4/4 skills passed; metadata check incomplete | In review |
+| Better Story GTM 1.0.0 | Passed | 6/6 skills passed; non-blocking category warning | In review |
+| Better Story Target Book 1.0.0 | Passed | 3/3 skills passed; non-blocking category warning | In review |
 
-OpenAI Platform was reached in an authenticated session. Attempting the upload opened “Complete identity verification”: a verified developer identity is required before creating or uploading a plugin. The current organization offers individual or business verification. The account holder must complete that step; no identity documents have been collected or sent by this workflow.
+Developer verification is complete for Business — Better Story LLC. All three packages were uploaded to OpenAI Platform on October 3. The initial Compiler name was flagged as generic; the public names now include Better Story. Copyright ownership remains Kerry Morrison.
 
-Publisher name is provisionally Kerry Morrison. Reconcile it with the verified developer identity before uploading. Product, support, privacy, and terms pages are prepared in `docs/`. The support privacy policy specifies deletion within 90 days after resolution; the publisher must operate support consistently with that published policy.
+The Compiler's name/description check could not complete; the portal explicitly permits additional review. The GTM and Target Book category warnings do not block submission. Productivity is retained because these are task-planning and research-preparation workflows; review may request a different category. All 13 required skill scans finished with “Checks passed” before submission.
+
+The final submission dialog requires agreement to Developer Apps Terms and Plugin Guidelines, applicable legal compliance, content rights, no money/crypto transfers or trades, general-audience suitability, and no targeting or sharing information of children under 13. Kerry explicitly approved accepting these declarations for all three packages at the final step. All three were submitted and the Plugins dashboard visibly confirmed “In review.” None is approved or published yet.
+
+Product, support, privacy, and terms pages are published and verified. The support privacy policy specifies deletion within 90 days after resolution; the publisher must operate support consistently with that published policy.
+
+## Portal records
+
+- Compiler: `plugins_6ac15ac067088191b9f3c3afe10ce9c3`, draft `appsub_6ac15ac0672881919b7f80728a3b1918`; submitted release `pluginrel_02107f04edfc8191bb29b959ba2ccb04`.
+- GTM: `plugins_6ac15b3d6e3081919b0458a21cfaa66e`, draft `appsub_6ac15b3d6e5c8191bb081f52b97724f0`; submitted release `pluginrel_52921a1a12a081919af21953de55b5da`.
+- Target Book: `plugins_6ac15b6e3f0881919b7141ba9915a146`, draft `appsub_6ac15b6e3f308191b803d39308813105`; submitted release `pluginrel_a90213e7b24c8191b21d067a04a5499a`.
 
 ## Validation performed
 
@@ -23,13 +33,12 @@ Publisher name is provisionally Kerry Morrison. Reconcile it with the verified d
 
 ## Next steps
 
-1. Complete developer verification and confirm publisher identity.
-2. Upload The Compiler ZIP; resolve actual automated findings before scaling to the remaining two.
-3. Run representative acceptance cases in installed plugin sessions when available.
-4. Review the final portal attestations and submit each package. Binding agreements require the account holder's action-time approval.
-5. Record scan findings, submission identifiers, and actual status here. Approval and publication are separate steps.
+1. Await OpenAI review. Review feedback is sent by email and shown in the portal.
+2. Resolve any reviewer findings; approval is not presumed.
+3. After approval, publish the approved packages and verify their directory availability.
+4. Run representative acceptance cases in installed plugin sessions when available; no installed runtime evaluation has yet been performed.
 
-The local checks do not establish directory eligibility, automated scan results, review approval, or publication. No release has been published.
+Local walkthroughs are not independent model evaluations. Submission is not approval. No release has been published, and no background monitor has been installed.
 
 ## Project location and GitHub
 
