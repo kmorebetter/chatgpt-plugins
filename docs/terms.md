@@ -1,6 +1,6 @@
 # Terms of use
 
-Effective October 2, 2026. Publisher: Kerry Morrison.
+Effective October 2, 2026. Publisher: Better Story, operated by Kerry Morrison.
 
 These skills provide task clarification, business planning, and source-grounded research assistance. They do not guarantee correct results, revenue, appointments, leads, or purchase intent. Verify consequential decisions and comply with the rules of any service or source you use.
 

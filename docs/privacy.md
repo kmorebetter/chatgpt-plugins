@@ -1,6 +1,6 @@
 # Privacy policy
 
-Effective October 2, 2026. Publisher: Kerry Morrison.
+Effective October 2, 2026. Publisher: Better Story, operated by Kerry Morrison.
 
 This policy covers The Compiler, GTM Engine, and Buyer / Target Book skills-only plugins distributed from this repository.
 
